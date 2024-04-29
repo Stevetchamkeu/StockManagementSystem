@@ -37,10 +37,10 @@ $detail = $conn->query($pro);
 		<th><strong><center>S. No.</center></strong></th>
 		<th><strong><center>FIRM</center></strong></th>
 		<th><strong><center>DESCRIPTION</center></strong></th>
-		<th><strong><center>SIZE</center></strong></th>
+		<th><strong><center>Capacity</center></strong></th>
 		<th><strong><center>QUANTITY</center></strong></th>
 		<th><strong><center>RATE</center></strong></th>
-		<th><strong><center>AMOUNT</center></strong></th>
+		<th><strong><center>Price</center></strong></th>
 	</tr>
 	<?php $s=0; foreach ($detail as $key => $value) { $s++; ?>
 			

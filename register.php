@@ -10,7 +10,7 @@ $result=$conn->query($sql);
 die;
 if ( $result->rowCount() == 0 ) {
 	header("location: login.html");
-	echo "<script>alert('Incorrect username or password');</script>";
+	echo "<script>alert('Full, Wrong username or password');</script>";
 }
 elseif ( $result->rowCount() > 0 ) {
 	
