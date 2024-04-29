@@ -24,7 +24,7 @@ $conn=null;
       </div>
       <div class="modal-body">
             <!-- <div class="form-group">
-              <label>Product Name</label>
+              <label>Items Name</label>
               <input type="text" placeholder="enter product name" id="pro_name" required="" class="form-control input-xs parsley-error">
             </div>
             <div class="form-group">
@@ -55,7 +55,7 @@ $conn=null;
                 <select class="form-control input-xs" id="pro_ty" required=""></select>
               </div>
               <div class="form-group">
-                <label>Price</label>
+                <label>Prices</label>
                 <input type="number" min="0.00" max="" step="0.01" id="pro_price" placeholder="enter product price" required="" class="form-control input-xs">
               </div>
               <div class="form-group col-md-12">
